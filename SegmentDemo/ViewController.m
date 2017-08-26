@@ -23,6 +23,11 @@
     segment.frame = CGRectMake(80, 100, 200, 40);
     [segment addTarget:self action:@selector(segmentValueChanged:) forControlEvents:UIControlEventValueChanged];
     segment.selectedIndex = 0;
+    /*
+     * 自定义背景图片
+    segment.normalImage = [[UIImage imageNamed:@"mySegCtrl-normal-bkgd"] resizableImageWithCapInsets:UIEdgeInsetsMake(2, 20, 2, 20) resizingMode:UIImageResizingModeStretch];
+    segment.selectedImage = [[UIImage imageNamed:@"mySegCtrl-selected-bkgd"] resizableImageWithCapInsets:UIEdgeInsetsMake(2, 20, 2, 20) resizingMode:UIImageResizingModeStretch];
+     */
     [self.view addSubview:segment];
     
     segment = [[CustomSegmentControl alloc] initWithItems:@[@"资料库", @"更新"]];
