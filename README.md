@@ -8,7 +8,11 @@ iOS提供的控件UISegmentControl可以通过setBackgroundImage、setDividerIma
 ## 使用方法
 
 ### 引入工程
-将文件CustomSegmentControl.h,CustomSegmentControl.m两个文件拷贝到工程中，在需要引用的地方#import "CustomSegmentControl.h"
+将文件CustomSegmentControl.h,CustomSegmentControl.m两个文件拷贝到工程中，在需要引用的地方
+
+```
+#import "CustomSegmentControl.h"
+```
 
 ### 实例化控件对象
 ```
